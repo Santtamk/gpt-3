@@ -120,6 +120,12 @@
     color: #FFF;
 }
 
+.gpt3__footer-copyright img {
+    width: 1.5rem;
+    height: auto;
+    padding-top: 4px;
+}
+
 @media screen and (max-width: 850px) {
     .gpt3__footer-heading h1 {
         font-size: 44px;

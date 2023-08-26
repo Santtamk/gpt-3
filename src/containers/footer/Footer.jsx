@@ -1,6 +1,11 @@
 import React from 'react'
 import './footer.css'
 import gpt3logo from '../../assets/logo.svg'
+import github from '../../assets/github.png'
+
+
+
+
 
 const Footer = () => {
   return (
@@ -40,6 +45,7 @@ const Footer = () => {
 
       <div className='gpt3__footer-copyright'>
         <p>© 2021 GPT-3. All rights reserved.</p>
+        <a href="https://github.com/Santtamk"><img src={github} alt="github__logo" /></a>
       </div>
     </div>
   )
